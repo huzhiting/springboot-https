@@ -22,7 +22,7 @@ import java.security.SecureRandom;
 @RunWith(SpringRunner.class)
 public class P12CertTest {
  
-  private final static String TEST_URL = "https://127.0.0.1:7090/server/hello";
+  private final static String TEST_URL = "https://127.0.0.1:7090/server/ssl";
  
   @Test
   public void getHKVesselTrip() throws Exception {
